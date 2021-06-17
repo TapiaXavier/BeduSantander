@@ -13,9 +13,69 @@ button{
 }
 
 body{
-    background-color: #c0966b;
+    background-color: #fdf8f3;
 }
 
 
+li {
+    display: inline;
+}
 
- 
+.header > * {
+    display: inline-block;
+}
+
+  .header {
+    font-size: 0;
+    margin: 40px 20px 20px;
+    height: 45px;
+    font-family: sans-serif;
+  } 
+  
+
+  
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .logo > img {
+    height: 100%;
+  }
+
+  .navbar {
+    height: 45px;
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+    font-style: sans-serif;
+    
+  }
+
+  .navbar li{
+      padding: 25px;
+      color: #025157;
+  }
+  
+  .actions {
+    height: 45px;
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    
+    
+  }
+  .actions a{
+        color: #67b54b;
+        padding: 10px;
+    }
+
+   .actions button{
+        color: rgb(240, 224, 224);
+        background-color: #67b54b;
+        padding: 14px 14px 12px 12px;
+        border: 0;
+        border-radius: 5px;
+    }
