@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <!-- Aquí va información importante pero no visible dentro del navegador -->
+<section class="flex-header">
 <header class="header">
     <!-- Logo con link a la página principal -->
     <a href="/" class="logo">
@@ -29,8 +30,11 @@
       <button>Comienza Gratis</button>
     </div>
   </header>
+</section>
+
 
 <img alt="Logo de matcha" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
+
 
 <body>
   <!-- Esto es lo que se verá en el navegador web -->
@@ -63,8 +67,63 @@
       <button type="Enviar">
         Ingresar &rarr; 
       </button>
-
-     
   </form>
+
+  <section class="promo">
+<!--
+    <video
+      src="Recursos/Video.webm"
+      controls
+      poster="Recursos/PortadaVideo.jpg"
+    ></video>
+ 
+-->
+
+<!--Agregando multiples formatos de video -->
+<article class="videpromo"> 
+  <video controls
+      poster="Recursos/364e9f8a295c89fa5b2129d2489ebf97.jpg">
+        <source
+        type="video/webm"
+        src="Recursos/Video.webm"
+        />
+
+      <source
+        type="video/mp4"
+        src="Recursos/VideoMP4.mp4"
+      />
+      
+    </video>
+
+    <img src="Recursos/seehowwitworks.png"/>
+
+  </article>
+
+    <article class="video">
+      <h2>Publish to your blog in minutes, not hours.</h2>
+      <p>See how it works
+        Publish to your blog in minutes, not hours.
+        Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.
+      </p>
+
+      <h4>Start publishing today:</h4>
+
+      <form class="VideoForms">
+        <label for="Email">Enter email</label>
+        <input type='email' /><br>
+
+        <button type="Start">
+          Start My Trial  &rarr; 
+        </button>
+
+      </form>
+
+    </article>
+
+   
+
+  </section>
+
+  
 </body>
 </html>
