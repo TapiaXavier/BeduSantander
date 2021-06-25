@@ -79,6 +79,7 @@ li {
         border-radius: 5px;
 }
 
+/* Sección del video*/
 
 .video h2 {
   font-family: "Alegreya", serif;
@@ -144,3 +145,146 @@ main {
   margin-top: 285px;
   text-align: center;
 }
+
+
+
+/*Sección del carrucel de empresas*/
+
+.empresas {
+  background-color: #a1d683;
+  display: flex;
+  padding: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 2% 10%;
+
+}
+
+.informacion{
+  width: 60%;
+}
+
+.informacion h3 {
+  color: #025157;
+  font-size: 50px;
+  line-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacion p{
+  color: #64380f;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 2.0;
+  }
+
+
+.informacion img{
+  width: 450px;
+  max-width: 100%;
+}
+
+.informacion button{
+  color: rgb(240, 224, 224);
+  background-color: #025;
+  padding: 14px 14px 12px 12px;
+  border: 0;
+  border-radius: 5px;
+}
+
+
+.carrucel {
+  width: 100%;
+  max-width: 330px;
+  background-color: #fdf8f3;
+}
+
+.imagenescarrucel{
+  position: relative;
+}
+
+.CarrucelFace{
+  width: 50px;
+  max-height: 50%;
+  z-index: 0;
+}
+
+.LogoCarrucel{
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #e6b30c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogoCarrucel img{
+  width: 100%;
+  max-height: 16vw;
+
+}
+
+.carrucel button{
+  color: rgb(240, 224, 224);
+  background-color: #025;
+  padding: 14px 14px 12px 12px;
+  border: 0;
+  border-radius: 5px;
+}
+
+/*Retro 4 sesion 4*/
+
+.features{
+  display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    height: 660px;
+    background-color: #025157;
+    
+      /*Formas de declaraciones*/
+            /*grid-template-columns: 500px,1fr;*/
+            /*grid-template-columns: 300px 300px;*/
+            /*grid-template-columns: 1fr 1fr;*/
+            /*grid-template: repeat(2, 1fr) / repeat(2, 330px);*/
+            /*grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 330px);*/
+}
+
+.feature-art{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  width: 30%;
+  height: 60px;
+  
+}
+
+.feature-art h3{
+  color: #64380f;
+}
+
+.feature-art a{
+  color: #67b54b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
