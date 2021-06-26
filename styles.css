@@ -13,7 +13,7 @@ button{
 }
 
 body{
-    background-color: #fdf8f3;
+    background-color: #ffffff;
 }
 
 
@@ -357,24 +357,64 @@ main {
   width: 30%;
 }
 
+/* Postwork sesion 4 */
 
+.How-Matcha-Wok{
+  padding-top: 40px;
+}
 
+.información{
+  align-items: center;
+  text-align: center;
+}
 
+.informacion-texto h1{
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
 
+.informacion-texto button{
+  color: rgb(240, 224, 224);
+  background-color: #025;
+  padding: 14px 14px 12px 12px;
+  border: 0; 
+  border-radius: 5px;
+  font-size: 18px;
+}
 
+.informacion-texto p{
+  font-family: 'Trebuchet MS'
+}
 
+.presentacion-columna{
+  display: grid;
+  grid-gap: 10px;
+	grid-template-columns: repeat(4, [col] 250px ) ;
+	grid-template-rows: repeat(2, [row] auto  );
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 40px;
+}
 
+.presentacion-columna-children{
+    background-color: rgb(255, 255, 255);
+		border-radius: 5px;
+    text-align: center;
+}
 
+.presentacion-columna-children img {
+  max-width: 100%;
+  position: relative;
+}
 
+.presentacion-columna-children a{
+  color: #67b54b;
+}
 
+.presentacion-columna-children h3{
+  color:#025157 ;
+}
 
-
-
-
-
-
-
-
-
-
-px
