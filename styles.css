@@ -304,7 +304,7 @@ main {
 
 .features{
   display: grid;
-    grid-template: repeat(2,  330px)/ repeat(2, 1fr);
+    grid-template: repeat(2,  500px)/ repeat(2, 1fr);
     background-color: #025157;
     padding-top: 5%;
     padding-left: 10%;
@@ -397,6 +397,7 @@ main {
   padding-top: 50px;
   padding-bottom: 50px;
   gap: 40px;
+  justify-content: center;
 }
 
 .presentacion-columna-children{
