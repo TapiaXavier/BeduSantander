@@ -419,3 +419,90 @@ main {
   color:#025157 ;
 }
 
+/*Sesión 5 Media Query*/
+
+@media (max-width: 575px) {
+  .navbar,
+  .actions {
+    display: none;
+  }
+  h1{
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .main{
+    margin-top: 100px;
+    text-align: center;
+    
+  }
+
+  .banner > img {
+    width: 100%;
+  }
+
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .promo > videopromo{
+    width: 100%;
+  }
+
+  .video{
+    margin-top: 10px;
+  }
+
+  .video > h4{
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .features{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .presentacion-columna{
+    grid-template: repeat(4, 1fr) / 1fr;
+  }
+
+}
+
+/*Ejemplo de tipos de media query*/
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  body{
+    background-color: #e6b30c;
+  }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
+}
+

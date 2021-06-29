@@ -57,3 +57,10 @@
     flex-basis: 100px;
   }
   
+  /*Uso de media query*/
+
+  @media (max-width: 575px) {
+    body {
+      background-color: yellow;
+    }
+  }
