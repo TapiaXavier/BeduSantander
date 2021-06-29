@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
     <title>Matcha</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -32,42 +32,52 @@
   </header>
 </section>
 
-
-<img alt="Logo de matcha" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
-
-
 <body>
-  <!-- Esto es lo que se verá en el navegador web -->
-  <h1>Construye tu blog. Construye tu negocio.</h1>
-  <h2>Etiqueta numero 2</h2>
-  <h3>Etiquetra numero 3</h3>
-  <h4>Etiqueta numero 4</h4>
-  <h5>Etiqueta numero 5</h5>
-  <h6>Etiqueta numero 6</h6>
 
-  <p>Mi primer parrafo by Tapia</p>
-  <p>
-      <b>
-          Tiempo limitado 
-      </b>
-  </p>
-  <p>Mi primer formulario</p>
-  <form>
-      <label for="nombre">Nombre</label>
-      <input type='text' id='Nombre'  /><br>
-      <label for="Apellido">Apellido</label>
-      <input type='text' /><br>
-      <label for="Edad">Edad</label>
-      <input type='number' /><br>
-      <label for="Email">Email</label>
-      <input type='email' /><br>
-      <label for="Contraseña">Contraseña</label>
-      <input type="password" /><br>
+  <section class="main">
 
-      <button type="Enviar">
-        Ingresar &rarr; 
-      </button>
-  </form>
+    <figure class="banner">
+      <img alt="Logo de matcha" src="Recursos/capterra.png" />
+    </figure>
+
+    <!-- Esto es lo que se verá en el navegador web -->
+    <h1>Construye tu blog. Construye tu negocio.</h1>
+    <h2>Etiqueta numero 2</h2>
+    <h3>Etiquetra numero 3</h3>
+    <h4>Etiqueta numero 4</h4>
+    <h5>Etiqueta numero 5</h5>
+    <h6>Etiqueta numero 6</h6>
+
+    <p>Mi primer parrafo by Tapia</p>
+    <p>
+        <b>
+            Tiempo limitado 
+        </b>
+    </p>
+
+    <p>Mi primer formulario</p>
+
+    <form class="formulario">
+
+        <label for="nombre">Nombre</label>
+        <input type='text' id='Nombre'  /><br>
+        <label for="Apellido">Apellido</label>
+        <input type='text' /><br>
+        <label for="Edad">Edad</label>
+        <input type='number' /><br>
+        <label for="Email">Email</label>
+        <input type='email' /><br>
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" /><br>
+
+        <button type="Enviar">
+          Ingresar &rarr; 
+        </button>
+
+    </form>
+
+</section>
+
 
   <section class="promo">
 <!--
@@ -81,6 +91,7 @@
 
 <!--Agregando multiples formatos de video -->
   <article class="videpromo"> 
+    
     <video controls
         poster="Recursos/364e9f8a295c89fa5b2129d2489ebf97.jpg">
           <source
