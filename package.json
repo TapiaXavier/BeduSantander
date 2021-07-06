@@ -1,0 +1,22 @@
+{
+  "name": "santanderfront",
+  "version": "1.0.0",
+  "description": "introduccionSaSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TapiaXavier/BeduSantander.git"
+  },
+  "author": "JavierTapia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TapiaXavier/BeduSantander/issues"
+  },
+  "homepage": "https://github.com/TapiaXavier/BeduSantander#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
