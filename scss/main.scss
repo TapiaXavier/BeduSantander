@@ -57,8 +57,6 @@
 
   .category {
     color: $linkColor;
-
-
   }
 
   h5 {
@@ -67,11 +65,21 @@
   }
 
   p {
-
     color: $TextCard;
     font-size: $PCardSize;
-
   }
 
 }
 
+@media (max-width: 575px) {
+  .blog {
+    .row {
+      display: grid;
+      .col {
+        float: left;
+        width: 90%;
+        padding: 5% 0%;
+      }
+    }
+  }
+}
